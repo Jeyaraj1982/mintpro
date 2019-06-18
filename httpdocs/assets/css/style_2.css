@@ -1,0 +1,1194 @@
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+
+.main-menu-sg {
+display:none;
+}
+
+.parahide{
+  display:none;
+  }
+
+/*--------------------------------------Mobile CSS------------------------------------*/
+
+@media only screen and (max-width: 414px) and (min-width: 360px){ 
+  
+.sidebar{ margin-top: unset;  }    
+  
+.page-content-newpages    { font-family: 'Montserrat', sans-serif;  font-size: 13px;  font-weight: normal;  font-style: normal;  font-stretch: normal; line-height: 1.85;  letter-spacing: normal;  text-align: left; padding: 0 3vw;}
+
+.page-headline-newpages    { font-family: 'Montserrat', sans-serif;   font-size: 18px;  font-weight: 600;  font-style: normal;  font-stretch: normal;  line-height: 1.67;  letter-spacing: normal;  text-align: left; margin-top:-22px; padding: 0 3vw;}
+
+.page-title-banner-newpages    {font-family: 'Montserrat', sans-serif;  font-size: 21px !important;  font-weight: 600;  font-style: normal;  font-stretch: normal;  line-height: 1.33;  letter-spacing: normal;  text-align: left; color: #000000;  margin-left: unset !important;}  
+
+ .training_banner_button-newpage{    display: block;    font-size: 16px;    font-weight: 500;    width: 131px !important;
+    height: 35px !important;    border-radius: 22.5px;    background-color: #47c998;    color: #ffffff;    text-align: center;
+    line-height: 2 !important;    position: absolute;    font-family: Montserrat;       left: 116px !important;}
+    
+ .googlepaly-sidebar{  height: 45px;  width:133px;  margin-left: 65px !important;  margin-top: 10px;  }  
+  
+ .appdown-sidebar{font-size: 14px;  font-family:Montserrat; color: #236df1;font-weight: bold; text-align: center; }
+    
+  /*  .sp-testimonial-free-section .tfree-client-testimonial{
+  font-size:14px !important;
+  line-height: 1.85;    
+  font-family: Montserrat;
+  font-weight: normal;
+}
+    
+.sp-testimonial-free-section .sp-tfree-client-image img{
+ width: 70px;
+    height:66px;
+  border-radius:unset;
+  }
+    
+ .testimonialimg{
+         padding: 50px;       
+    }
+   
+ .sp-testimonial-free-section h2.tfree-client-name
+{
+  font-size: 14px !important;}
+  */
+    
+.absolute-sidebar-cta {position: unset !important; width: unset !important;  left: unset !important; top: unset!important; z-index: unset !important; border-top: unset !important;
+    bottom: unset !important; margin-top:unset !important; bottom: unset !important; top: unset !important; margin-bottom: unset !important;}
+    
+ .sticky-sidebar-cta { position: unset !important; width: unset !important;  /* left: 0; */   /* top: 0; */  z-index: unset !important;  border-top: unset !important;
+    bottom: unset !important;  margin-top: unset !important;}
+  
+/* -------------carousel------------- */
+/* carousel */
+#quote-carousel {
+  padding: 0 10px 30px 10px;
+  text-align:center;
+ font-size: 18px !important;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38 !important;
+  letter-spacing: normal;
+  text-align: center;
+  color: #354052;
+}
+  
+  .client-name {
+    font-size: 19px !important;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #354052;
+}
+
+.carousel-inner
+{
+    height: 310px;
+}
+    
+.carposition
+{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+    /* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+      left: -30px !important;
+    font-size: 27px !important;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+      right: -30px !important;
+    font-size: 27px !important;
+}
+  
+  .testimonialimg{
+         padding: 100px;  
+   padding-bottom:20px !important;
+   
+    }
+  
+   /*---------Start mbl megamenu 26feb19-------*/
+
+    
+    .mobile-mega-menu ul li a{
+        padding: 15px;
+    margin-left: 16px;
+      width: 83% !important;
+    }
+    
+    .mobile-mega-menu ul li a.next-button{
+        width: 0% !important;      
+      color:#354052;
+      background: url(
+https://www.mintpro.in/wp-content/uploads/img/chevron-right.svg ) 100% 50% no-repeat #fff;
+    }
+    
+    .mobile-mega-menu ul li a.has-next-button{
+       width: 76% !important;
+    text-align: left;
+    }
+    
+    #menu-main-menu-1 > li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children.menu-item-2472 > a.menu-item.has-next-button{
+    
+    border-top: 1px solid #eff3f6;
+    }
+    
+    #menu-main-menu-1 > li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children.menu-item-2472 > a.next-button{
+        border-top: 1px solid #eff3f6;
+
+    }
+    
+    
+    
+    .mobile-mega-menu.open{
+    
+      width: 270px;
+      background-color: #ffffff;
+      z-index: 999;
+    }
+   
+    
+    .white{
+    color: #ffffff !important;
+    }
+    
+    
+    .btn-menu{
+       right: 306px;
+    }
+     .btn-menu span{
+        right: 7px;
+    }
+    
+
+    .header-sticky .btnmenu{margin-left: -45px;}
+    
+    #header > div.container.nav > div > div > div.header-wrap.clearfix > div.nav-wrap > div.btn-menu{
+    display:none;
+    }
+    
+   
+    #menu-main-menu-1 > li:nth-child(1){
+    width: 0px;
+    margin-left: 10px
+    }
+    
+    .mobile-mega-menu ul li a.close-button{
+        background: #4651a000;
+    }  
+  
+  
+    .sign-upmenu  {
+    background-color: #236df1 !important;;
+    height: 3px;
+    border-radius: 15px;
+    text-align: center;    
+    margin-top: 18px !important;;
+    margin-left: 29px !important;;
+    line-height: 4px !important;
+    font-style: normal;
+    font-family: montserrat;
+    text-shadow: unset !important;
+}
+
+   #mainnav-megamobile > div > nav > ul > li:nth-child(9) > a{
+        line-height: 4px !important;
+        width: 77px !important;
+     color: white !important;  
+    }
+    
+    .mobile-mega-menu{    
+    top: 56px !important;
+    background: #fff;  
+    }
+    
+    .menu-item{
+    line-height:normal !important;
+    }
+    
+  .parahide{
+  display:unset;
+  }
+    
+  
+   #menu-main-menu-1 > li:nth-child(1){
+     display:none;
+    }
+    
+   #mainnav-megamobile > div > nav > ul > li:nth-child(2) > ul > li:nth-child(1){
+     display:none;
+    }
+    
+   #mainnav-megamobile > div > nav > ul > li:nth-child(2) > ul > li:nth-child(3) > ul > li:nth-child(1){
+    display:none;
+    }
+    
+   #mainnav-megamobile > div > nav > ul > li:nth-child(2) > ul > li:nth-child(4) > ul > li:nth-child(1){
+    display:none;
+    }
+    
+    #mainnav-megamobile > div > nav > ul > li:nth-child(2) > ul > li:nth-child(4) > ul > li:nth-child(3) > ul > li:nth-child(1){
+     display:none;
+    }
+    
+    #mainnav-megamobile > div > nav > ul > li:nth-child(3) > ul > li:nth-child(1){
+     display:none;
+    }
+  
+  #mainnav-megamobile > div > nav > ul > li:nth-child(4) > ul > li:nth-child(1){
+     display:none;
+    }
+  
+   
+    #menu-main-menu-1 > li.sign-up.addflyparam.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-45{
+    width:100px !important;
+    
+    }
+    
+    #menu-main-menu-1 > li.blue-text.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-44 > a{
+      margin-top:70px !important;
+    }
+    
+   #mainnav-megamobile > div > nav > ul > li:nth-child(8) > a{
+    border-bottom:unset;
+         margin-top: 60px;
+    }
+    
+    
+  .mobile-mega-menu ul li a{
+   border-bottom: 1px solid #eff3f6;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #354052 !important;
+    }
+    
+    #mainnav-megamobile > div > nav > ul > li:nth-child(2){
+    border-top: 1px solid #eff3f6;
+    
+    }
+    
+    .main-menu-sg {
+        height: 800px !important;
+    }
+    .main-menu-sg {
+display:unset !important;
+}
+ 
+ #mainnav > ul > li 
+    { line-height: 72px !important; }
+    
+  
+  .themesflat-top {
+    display:none;
+  }
+  
+}/* -------------End (max-width: 414px) and (min-width: 360px) mobilemenu  ---------------- */
+    
+
+@media only screen and (max-width: 359px) and (min-width: 320px){
+  
+  
+  /* -------------mobilemenu iphone 5 8 feb ---------------- */     
+    
+    .btn-menu{
+        margin-left: 13px;
+    margin-right: 18px;
+          right: 243px;
+
+    } 
+   .menusignup{
+    right: 22px !important;
+    
+    }
+    
+    .logo {
+    margin-left: 75px;
+}
+    
+   .themesflat-top {
+    display:none;
+  }
+  
+  .btn-menu span{
+      right: 8px;
+  }
+ 
+ /* -------------mobilemenu 8 feb end------------- */
+}
+  
+
+@media only screen and (max-width: 374px) and (min-width: 360px){
+/* -------------mobilemenu android 8 feb ---------------- */
+   
+    .btn-menu{
+        margin-left: 13px;
+    margin-right: 18px;
+          right: 278px;
+
+    }
+    
+    .menusignup{
+    right: 22px !important;
+    
+    }
+    
+    .logo {
+    margin-left: 75px;
+}
+     .themesflat-top {
+    display:none;
+  }
+  
+    
+ 
+ /* -------------mobilemenu 8 feb end------------- */
+
+}
+
+
+@media only screen and (max-width: 392px) and (min-width: 375px){
+  
+  
+/* -------------mobilemenu iphone 8 feb ---------------- */     
+    
+    .btn-menu{
+        margin-left: 13px;
+    margin-right: 18px;
+          right: 294px;
+  }
+    .menusignup{
+    right: 22px !important;
+    
+    }
+    
+    .logo {
+    margin-left: 75px;
+}
+     .themesflat-top {
+    display:none;
+  }
+    
+ /* -------------mobilemenu 8 feb end------------- */
+}
+
+
+@media only screen and (max-width: 413px) and (min-width: 393px){
+  
+  
+/* -------------mobilemenu iphone 8 feb ---------------- */     
+    
+    .btn-menu{
+        margin-left: 13px;
+    margin-right: 18px;
+          right: 311px;
+  }
+    .menusignup{
+    right: 22px !important;
+    
+    }
+    
+    .logo {
+    margin-left: 75px;
+}
+     .themesflat-top {
+    display:none;
+  }
+   
+ /* -------------mobilemenu 8 feb end------------- */
+}
+
+
+@media only screen and (max-width: 415px) and (min-width: 414px){
+  
+  
+  /* -------------mobilemenu iphone plus 8 feb ---------------- */     
+    
+    .btn-menu{
+        margin-left: 13px;
+    margin-right: 18px;
+          right: 332px;
+
+    } 
+   .menusignup{
+    right: 22px !important;
+    
+    }
+    
+    .logo {
+    margin-left: 75px;
+}
+    
+   .themesflat-top {
+    display:none;
+  }
+   
+ /* -------------mobilemenu 8 feb end------------- */
+}
+  
+   /*---------End mbl megamenu 26feb19-------*/
+
+
+@media only screen and (max-width: 359px) and (min-width: 320px){ 
+  
+  
+    
+    .mobile-mega-menu ul li a{
+        padding: 15px;
+    margin-left: 16px;
+      width: 83% !important;
+    }
+    
+    .mobile-mega-menu ul li a.next-button{
+        width: 0% !important;      
+      color:#354052;
+      background: url(
+https://www.mintpro.in/wp-content/uploads/img/chevron-right.svg ) 100% 50% no-repeat #fff;
+    }
+    
+    .mobile-mega-menu ul li a.has-next-button{
+       width: 76% !important;
+    text-align: left;
+    }
+    
+    #menu-main-menu-1 > li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children.menu-item-2472 > a.menu-item.has-next-button{
+    
+    border-top: 1px solid #eff3f6;
+    }
+    
+    #menu-main-menu-1 > li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children.menu-item-2472 > a.next-button{
+        border-top: 1px solid #eff3f6;
+
+    }
+    
+    
+    
+    .mobile-mega-menu.open{
+    
+      width: 270px;
+      background-color: #ffffff;
+      z-index: 999;
+    }
+   
+    
+    .white{
+    color: #ffffff !important;
+    }
+    
+   
+
+    .header-sticky .btnmenu{margin-left: -45px;}
+    
+    #header > div.container.nav > div > div > div.header-wrap.clearfix > div.nav-wrap > div.btn-menu{
+    display:none;
+    }
+    
+   
+    #menu-main-menu-1 > li:nth-child(1){
+    width: 0px;
+    margin-left: 10px
+    }
+    
+    .mobile-mega-menu ul li a.close-button{
+        background: #4651a000;
+    }  
+  
+  
+    .sign-upmenu  {
+    background-color: #236df1 !important;;
+    height: 3px;
+    border-radius: 15px;
+    text-align: center;    
+    margin-top: 18px !important;;
+    margin-left: 29px !important;;
+    line-height: 4px !important;
+    font-style: normal;
+    font-family: montserrat;
+    text-shadow: unset !important;
+}
+
+   #mainnav-megamobile > div > nav > ul > li:nth-child(9) > a{
+        line-height: 4px !important;
+        width: 77px !important;
+     color: white !important;  
+    }
+    
+    .mobile-mega-menu{    
+    top: 56px !important;
+    background: #fff;  
+    }
+    
+    .menu-item{
+    line-height:normal !important;
+    }
+    
+    
+  
+   #menu-main-menu-1 > li:nth-child(1){
+     display:none;
+    }
+    
+   #mainnav-megamobile > div > nav > ul > li:nth-child(2) > ul > li:nth-child(1){
+     display:none;
+    }
+    
+   #mainnav-megamobile > div > nav > ul > li:nth-child(2) > ul > li:nth-child(3) > ul > li:nth-child(1){
+    display:none;
+    }
+    
+   #mainnav-megamobile > div > nav > ul > li:nth-child(2) > ul > li:nth-child(4) > ul > li:nth-child(1){
+    display:none;
+    }
+    
+    #mainnav-megamobile > div > nav > ul > li:nth-child(2) > ul > li:nth-child(4) > ul > li:nth-child(3) > ul > li:nth-child(1){
+     display:none;
+    }
+    
+    #mainnav-megamobile > div > nav > ul > li:nth-child(3) > ul > li:nth-child(1){
+     display:none;
+    }
+  
+  #mainnav-megamobile > div > nav > ul > li:nth-child(4) > ul > li:nth-child(1){
+     display:none;
+    }
+  
+   
+    #menu-main-menu-1 > li.sign-up.addflyparam.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-45{
+    width:100px !important;
+    
+    }
+    
+    #menu-main-menu-1 > li.blue-text.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-44 > a{
+      margin-top:70px !important;
+    }
+    
+   #mainnav-megamobile > div > nav > ul > li:nth-child(8) > a{
+    border-bottom:unset;
+         margin-top: 60px;
+    }
+    
+    
+  .mobile-mega-menu ul li a{
+   border-bottom: 1px solid #eff3f6;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #354052 !important;
+    }
+    
+    #mainnav-megamobile > div > nav > ul > li:nth-child(2){
+    border-top: 1px solid #eff3f6;
+    
+    }
+    
+    .main-menu-sg {
+        height: 800px !important;
+    }
+    .main-menu-sg {
+display:unset !important;
+}
+ 
+ #mainnav > ul > li 
+    { line-height: 72px !important; }
+    
+  
+  .themesflat-top {
+    display:none;
+  }
+}
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+/*--------------------------------------Desktop CSS------------------------------------*/
+
+
+.page-title-banner-newpages {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+  margin-left: 152px;}
+
+.page-title-others {
+    color: #236DF1 !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    margin-left: -77px;
+}
+
+.sidebar{
+    margin-top: 445px;
+}
+
+.page-content-newpages {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    /*padding: 0 5vw;*/
+}
+
+.page-headline-newpages {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    /*padding: 0px 5vw;*/
+    margin-bottom: 20px;
+}
+
+.training_banner_button-newpage {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    height: 45px;
+    width: 166px;
+    border-radius: 22.5px;
+    background-color: #47c998;
+    color: #ffffff;
+    text-align: center;
+    line-height: 2.76;
+    position: absolute;
+    font-family: Montserrat;
+  text-decoration: none !important;
+}
+
+/* bullet points*/
+
+.html-bullet-classotherpage { margin-left: 26px; list-style: none; list-style-image: url(https://demo.blogopedia.in/wp-content/uploads/2018/02/bullet.svg);}
+
+.html-bullet-classotherpage li span {    margin-left: 18px;    display: block;}
+
+.html-bullet-classotherpage li {padding-bottom: unset;}
+
+.bulletcol {color:#236df1; margin-left: -29px;
+    margin-right: 13px;}
+
+ul.bulletcircle {list-style-type: circle;}
+
+/* testimonial slider*/
+
+/*
+.sp-testimonial-free-section .tfree-client-testimonial{
+  font-size:26px !important;
+  line-height:36px;
+  font-family: Montserrat;
+  font-weight: normal;
+}
+
+#sp-testimonial-free-wrapper-4863 .sp-testimonial-free-section .slick-dots li button{
+    
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 10px !important;
+  color: #f8fbff;
+  margin-top: 10px !important;
+
+    
+}
+div.sp-testimonial-free-section .slick-list{
+    height:266px;
+}
+
+.testimonial-slider-position{
+padding-left: 240px !important;
+    padding-right: 240px !important;
+}
+
+.sp-testimonial-free-section .sp-tfree-client-image img{
+  width: 141px;
+  height:101px;
+  border-radius:unset;
+}
+
+.sp-testimonial-free-section h2.tfree-client-name
+{
+    font-size: 25px !important;
+}*/
+   
+
+.page-breadcrum {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    /*padding: 0 9vw;*/
+}
+
+/*--------------------------------------sidebar title css------------------------------------*/
+
+.widget .widget-title:after, .widget .widget-title:before{
+    width: unset;
+    height: unset;
+}
+
+#recent-posts-3{
+border: 2px solid #f4f5f9;
+    padding: 18px;
+  font-family:Montserrat;
+}
+
+#custom_html-5{
+border: 2px solid #f4f5f9;
+    padding: 18px;
+    font-family:Montserrat;
+
+}
+
+
+.widget .widget-title{
+    /* text-transform: uppercase; */
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding-right: 53px;
+    display: block;
+    background-color: #f4f5f9;
+    line-height: 24px;
+    padding: 15px;
+    /* margin-left: 24px; */
+    font-size: 16px;
+    text-align: center !important;
+}
+
+.widget.widget-recent-news ul li:before, .widget.widget_archive ul li:before, .widget.widget_categories ul li:before, .widget.widget_recent_entries ul li:before{
+    font-family: "FontAwesome";
+    content: "\f054";
+    font-size: 9px;
+    color: #236df1 !important;
+    position: absolute;
+    left: 0;
+    top: 15px;
+}
+
+.page-template-default .sidebar .widget{
+margin-bottom: 14px;
+}
+
+.widget.widget_recent_entries ul li {
+    padding: 3px 0px 8px 24px;
+
+}
+
+.widget.widget-recent-news ul li:before, .widget.widget_archive ul li:before, .widget.widget_categories ul li:before, .widget.widget_recent_entries ul li:before{
+    top: 8px;
+}
+
+
+.googlepaly-sidebar{
+    width: 186px;
+}
+.appdown-sidebar{
+margin-bottom: 3px; 
+margin-left: -17px;
+font-size: 14px;  font-family:Montserrat; 
+color: #236df1;
+font-weight: bold; }
+
+.widget.widget_recent_entries > ul > li{
+  
+  border-bottom: unset;
+}
+
+
+.html-bullet-class-newpage{
+      margin-left: 26px;
+    list-style: none;
+    list-style-image: url(https://demo.blogopedia.in/wp-content/uploads/2018/02/bullet.svg);
+}
+
+.html-bullet-class-newpage li span{
+    margin-left: 18px;
+  display: block;}
+
+.html-bullet-class-newpage li{
+padding-bottom: 18px;
+}
+
+#content .wpb_text_column :last-child, .wpb_text_column :last-child{
+    margin-bottom: 3px;
+}
+
+
+ 
+/* -------------Testimonial carousel------------- */
+/* carousel */
+#quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+  text-align:center;
+ font-size: 26px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: center;
+  color: #354052;
+}
+.carousel-inner
+{
+    height: 250px;
+}
+
+  
+/* indicator position */
+#quote-carousel .carousel-indicators {
+  top: auto;
+  bottom: -40px;
+  margin-right: -19px;
+}
+  
+/* indicator color */
+#quote-carousel .carousel-indicators li {
+height:14px;
+  width:14px;
+  background: #c0c0c0;
+}
+/* active indicator */
+#quote-carousel .carousel-indicators .active {
+  background: #236df1;
+  height:14px;
+  width:14px;
+  margin-bottom:1px;
+}
+
+/* typography */
+
+testifont{
+font-size:26px;
+line-height:30px;
+font-family: Montserrat;
+  font-weight: normal;
+}
+
+.client-name{
+   font-size: 25px;
+   font-family: Montserrat;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #354052;
+}
+
+.carposition
+{
+    padding-right: 200px ;
+    padding-left: 200px ;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+      left: -165px ;
+    font-size: 50px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+      right: -165px;
+    font-size: 50px;
+}
+ 
+
+#quote-carousel .carousel-indicators li{
+margin-right:10px;
+}
+
+$(document).ready(function() {
+  //carousel options
+  $('#quote-carousel').carousel({
+    pause: true, interval: 10000,
+  });
+});
+
+/* -------------Testimonial carousel End------------- */
+
+
+
+/*-------Home top bar 7/2/19--------*/
+
+.themesflat-top .content-right li {
+    display: inline-block !important;
+    padding-right: 16px !important;
+    padding-left: 11px !important;
+    margin-top: 12px !important;
+    letter-spacing: -0.25px !important;
+    font-size: 14px !important;
+}
+
+.themesflat-top .content-left li{
+ font-size: 14px !important;
+}
+/*-------Home top bar End--------*/
+
+/*-------Home menu--------*/
+
+#menu-item-515{
+   margin-right: 100px;
+
+}
+
+#menu-item-9999999999
+{
+    margin-right: 14px;
+
+}
+
+/*-------Home menu End--------*/
+
+
+/*------------------menu css--------------*/
+#mainnav ul.sub-menu > li > a:hover{
+background-color:#236bf1 !important;
+  color:#ffffff !important;
+}
+
+#mainnav ul.sub-menu > li > a{
+color:#354052 !important;
+  line-height:20px !important;
+  
+     padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+#mainnav ul.sub-menu{
+
+background-color: #ffffff !important;
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); 
+}
+
+#mainnav ul.sub-menu > li{
+
+border-color : #dfe3e9 !important;
+}
+
+ul.sub-menu li:hover{
+background-color:#236bf1 !important;
+  
+}
+
+#mainnav ul.sub-menu > li:hover > a{
+color:#ffffff !important;
+}
+/*------------------menu css End--------------*/
+
+
+
+/*--------------------Nimita Laptop 1920x1080-----------------------*/
+
+
+@media only screen and (min-width: 1915px) and (max-width: 1925px){
+ 
+
+.sticky-sidebar-cta{ width: 14%;}
+ }  
+
+.page-wrap
+{
+ padding: 0px 0;
+}
+
+/*------------------Siddhita/Prashant Laptop 1680x1050----------------------*/
+
+
+@media only screen and (min-width: 1675px) and (max-width: 1685px){
+ .service-heading{margin-top: 0px !important;}
+  
+      /*--testimonial slider--*/ 
+
+
+.sticky-sidebar-cta{  width: 15.5%;}
+  
+  
+
+/*-----------------Siddharth Laptop 1280x800------------------------*/
+@media only screen and (min-width: 1275px) and (max-width: 1285px) and (min-height: 795px) and (max-height: 805px)  {
+
+  /*--testimonial slider--*/
+div.sp-testimonial-free-section .slick-list{
+    height:390px !important;
+  }   
+  
+     
+  .sticky-sidebar-cta{
+  width: 20.5% !important;}
+}
+
+.absolute-sidebar-cta {
+    width: 100%;}
+
+
+
+}
+
+  
+
+/*------------------Ruchita Laptop 1366x768----------------------------*/
+@media only screen and (min-width: 1364px) and (max-width: 1370px) and (min-height: 765px) and (max-height: 772px)  {
+
+  .service-heading{margin-top: -75px !important;}}
+ 
+@media only screen and (min-width: 1364px) and (max-width: 1370px)  {
+.sticky-sidebar-cta{ width: 19.3% !important;}
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1600px){
+.sticky-sidebar-cta{width: 18%;}    
+}
+#mainnav > ul > li {  margin-left: 25px !important ; }
+
+.sticky-cta { display: none; padding: 35px 0px 30px 0px; background-color: #ffffff; border-top: 1px solid #f7f7f7; border-bottom: 1px solid #f7f7f7; margin-top: -3px;}
+
+.cta-border{height: 2px; border: solid 1px #979797; width: 84%; margin: 0 auto; display:none}
+
+@media screen and (min-width: 0px) and (max-width: 720px) {
+  
+  .sticky-cta{ display: none; }
+}
+
+.cta-heading{
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  letter-spacing: normal;
+  text-align: left;}
+
+.sticky-cta form input[type=email] {
+    width: 306px;
+    height: 50px;
+    border-radius: 26px;
+    border-color: #236df1;
+}
+
+.sticky-cta form input[type=submit] {
+    width: 50px;
+    height: 49px;
+    border-radius: 26px;
+    margin-left: -51px;
+    position: absolute;
+    font-size: 3em;
+    font-weight: 200 !important;
+    background-image: url(https://www.mintpro.in/wp-content/uploads/2018/02/group-5.svg);
+    background-repeat: no-repeat;
+    color: rgba(35, 109, 241, 0);
+    /* background-size: contain; */
+    background-color: #ffffff00;
+} 
+
+.sticky-cta {display:none;}
+         .footer{background: url(https://www.mintpro.in/wp-content/uploads/2018/02/fotter-desktop-bg.svg) ;
+         background-size: cover; max-width: 1440px;margin: 0 auto; padding-top: 30px}
+         #float-button{margin-bottom: unset !important;}
+         .slick-dots {bottom: 46px !important;}
+         #heading {font-weight: 500 !important;}
+         @media screen and (max-width: 360px) and (min-width: 300px){
+         .google {
+         position: absolute;
+         bottom: -285px !important;
+         right: 25px !important;
+         }}
+         a .Hp-banner_button-rev{text-decoration: none;}
+         .videoo {width: 1440px;
+         margin: 0 auto;}
+         .mobileimgslider .slick-slide img {
+         display: block;
+         margin-left: -109px !important
+         }
+         .laptopimgslider .slick-slide img {
+         display: block;
+         margin-left: -221px !important
+         }
+         @media screen and (max-width: 414px) and (min-width: 360px){
+         .mobileimgslider .slick-slide img {
+         display: block;
+         margin-left: unset !important
+         }
+         .laptopimgslider .slick-slide img {
+         display: block;
+         margin-left: -20px !important
+         }}
+         .slick-slider .slick-arrow{
+         border-radius: 50%;
+         background: 0 0 #fff!important;
+         display: block !important;
+         height: 50px;
+         width: 50px;
+         box-shadow: 0 2px 4px 0 #0000003d;
+         }
+         
+         
+         /* */
+         .vc_custom_1542113262735{margin-top: 10px !important;}.vc_custom_1542113272992{margin-top: 10px !important;}.vc_custom_1542111868401{margin-top: 10px !important;}.vc_custom_1524896483333{margin-bottom: -45px !important;border-bottom-width: 30px !important;padding-top: 5px !important;background-color: #f6f9fc !important;}.vc_custom_1524896474256{margin-bottom: -45px !important;border-bottom-width: 30px !important;padding-top: 5px !important;background-color: #f6f9fc !important;}.vc_custom_1524654565822{background-color: #f6f9fc !important;}.vc_custom_1519899870251{margin-top: 0px !important;margin-right: 0px !important;margin-bottom: 0px !important;margin-left: 0px !important;padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;padding-left: 0px !important;background-color: #236df1 !important;}.vc_custom_1533009555686{margin-top: 0px !important;margin-right: 0px !important;margin-bottom: 0px !important;margin-left: 0px !important;padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;padding-left: 0px !important;background-color: #236df1 !important;}.vc_custom_1519903640620{background: #236df1 url(https://www.mintpro.in/wp-content/uploads/2018/01/boss.png?id=329) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1519902196246{margin-bottom: -5px !important;}.vc_custom_1548933928699{margin-bottom: -5px !important;}.vc_custom_1519902271619{margin-bottom: -5px !important;}.vc_custom_1519902308442{margin-bottom: -5px !important;}.vc_custom_1519902410861{margin-bottom: -5px !important;}.vc_custom_1519902436149{margin-bottom: -5px !important;}.vc_custom_1519902451511{margin-bottom: -5px !important;}.vc_custom_1517921375301{margin-bottom: -50px !important;}.vc_custom_1517921375301{margin-bottom: -50px !important;}.vc_custom_1518667929694{margin-top: -35px !important;}.vc_custom_1518667021310{margin-bottom: -36px !important;}.vc_custom_1516784911051{padding-right: 70px !important;padding-left: 70px !important;}.vc_custom_1533009563205{margin-top: -35px !important;}.vc_custom_1518667021310{margin-bottom: -36px !important;}.vc_custom_1516784911051{padding-right: 70px !important;padding-left: 70px !important;}.vc_custom_1516784334434{margin-top: -36px !important;margin-bottom: -36px !important;}.vc_custom_1516784511379{margin-bottom: 0px !important;}.vc_custom_1519194588238{border-top-width: -5px !important;}
